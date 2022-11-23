@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Sarabun&display=swap');
+
+.Lone {
+
+  background-image: url('https://sv1.picz.in.th/images/2022/09/12/aHsJvt.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 80px;
+  display: block;
+
+}
+
+.Ltwo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Prompt', sans-serif;
+  padding:30px 50px;
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.12);
+ 
+}
+
+.Lthree {
+  background-color: white;
+
+  height: 800px;
+  /* width:  400px; */
+  width:  350px;
+  position: fixed;
+  top: 8%;
+  /* margin-left: 75%; */
+  margin-left: 78%;
+  box-shadow: -3px 3px 9px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+}
+.fontbill{
+  margin-top: 50px;
+  width:  300px;
+  font-family: 'Prompt', sans-serif;
+}
+.fr{
+  float:left; 
+}
+.Lheadmenu{
+
+  padding: 30px 30px;
+  margin-left: 20px;
+  font-family: 'Prompt', sans-serif;
+  color: #FF4742;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: -50px;
+
+}
+.Lfood{
+  display: grid;
+  grid-template-columns: 350px 350px 350px ;
+  gap: 80px 60px;
+  /* background-color: #F7F7F7; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 40px;
+  
+}
+.Lfood-item {
+  background-color: white;
+  border-radius: 15px;
+  height: 375px; 
+  /* height: 430px; */
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.24);
+}
+.Lfood-item img {
+  border-radius: 15px;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}
+.fontfoodbox{
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-weight: 600;
+}
+.fontinfoodbox{
+  margin-left: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+/* CSS */
+.addfood {
+ 
+
+  position: relative;
+  color: #fa6400;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 25px;
+  bottom: 8px;
+}
+.removefood {
+  position: relative;
+  color: #fa6400;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 25px;
+  bottom: 8px;
+
+}
+.dbutton-cart{
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.button-cart {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #00E73F;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 325px;
+}
+
+.button-cart:hover,
+.button-cart:focus {
+  background-color: #33FF6B;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-cart:hover {
+  transform: translateY(-1px);
+}
+
+.button-cart:active {
+  background-color: #00E73F;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.button-add {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #fa6400;
+  font-family: 'Prompt', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  width: 50px;
+}
+.button-remove {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #fa6400;
+  font-family: 'Prompt', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  width: 50px;
+}
+.fontqty{
+  font-size: 26px;
+}
+.app-search2 {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 76%;
+}
+
+.app-search2-input {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  font-size: 16px;
+  width: 50%;
+  padding: 200px;
+}
+
+.closebuttoncart {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #D7D7D7;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #6B6B6B;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 325px;
+}
+.fontRed
+{
+  color: red;
+}
+
+/* สไตล์ POPUP */
+.fontheadPOPUP{
+  font-family: 'Prompt', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.fontPOPUP{
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+.iconPOP{
+  height: 120px;
+  width: 120px;
+
+}

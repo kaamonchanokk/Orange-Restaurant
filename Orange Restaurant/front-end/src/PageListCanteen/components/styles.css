@@ -1,0 +1,199 @@
+.main {
+
+    background-image: url('https://sv1.picz.in.th/images/2022/09/04/a5N1My.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 80px;
+    display: block;
+
+
+
+}
+
+.main2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*column-gap:16px;
+    row-gap: 16px;*/
+    gap: 50px 100px;
+    max-width: 8000px;
+    /*ความกว้างสูงสุด */
+    /*background-color: pink;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+
+
+}
+.twocanteen{
+   padding-left: 40px;
+ }
+
+.fontList1 {
+    font-size: 50px;
+    color: #000;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    font-family: 'Prompt', sans-serif;
+    margin-left: 50%;
+}
+
+.fontList2 {
+    font-size: 50px;
+    color: #000;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    font-family: 'Prompt', sans-serif;
+    margin-left: 50%;
+}
+
+.fontList3 {
+    font-size: 30px;
+    color: #000;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    font-family: 'Prompt', sans-serif;
+    margin-left: 50%;
+}
+
+.food-item img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.button-canteen {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 425px;
+}
+
+.button-canteen:hover,
+.button-canteen:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-canteen:hover {
+    transform: translateY(-1px);
+}
+
+.button-canteen:active {
+    background-color: #C85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.fontcanteeninbox {
+    padding: 10px;
+
+    margin-bottom: -15px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.fontcanteenpeopleinbox {
+    margin-left: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
+
+.app-search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 97%;
+}
+
+.app-search-input {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    font-size: 16px;
+    width: 50%;
+    padding: 200px;
+}
+.headfontcanteen{
+    font-size: 50px;
+    color: #FF4742;
+    margin-left: 10px;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    font-family: 'Prompt', sans-serif;
+    margin-top: 80px;
+}
+.icon-pan{
+    background-color: #fa6400;
+    padding: 8px 15px;
+    font-size: 25px;
+    margin-top: 14px;
+    margin-left: 50px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #fa6400;
+}
+
+.form-input {
+    height: 58px;
+     text-indent: 5px; 
+    border-radius: 10px;
+    font-size: 200px;
+}
+
+.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}
+
+.boxcanteenclose {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #D7D7D7;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #6B6B6B;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Prompt', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 425px;
+}

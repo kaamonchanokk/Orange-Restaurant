@@ -1,0 +1,107 @@
+.font {
+  font-family: 'Prompt', sans-serif;
+}
+
+.bgcontainerleft {
+  float: left;
+  background-image: url(https://sv1.picz.in.th/images/2022/09/11/a8UY8t.png);
+  padding: 394.5px 420px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgcontainerright {
+  float: left;
+  background-color: white;
+  padding-top: 260px;
+  padding-left: 170px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxLogin {
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.button-login {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 400px;
+}
+
+.button-login:hover,
+.button-login:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-login:hover {
+  transform: translateY(-1px);
+}
+
+.button-login:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.boxtwo {
+  display: block;
+}
+
+.bgcontainerleft2 {
+  float: left;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/094/486/large_2x/defocused-coffee-shop-and-restaurant-background-free-photo.jpg');
+  padding: 450px 420px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgcontainerright2 {
+  float: left;
+  background-color: white;
+  padding-top: 120px;
+  padding-left: 170px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnlink:hover {
+  color: orange;
+}
+
+.btnlink:hover {
+  color: red;
+}

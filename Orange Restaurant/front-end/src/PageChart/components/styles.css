@@ -1,0 +1,148 @@
+
+.BLone {
+
+    background-color: white;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 180px;
+    display: block;
+  
+  }
+  .BLtwo {
+
+    background-color: white;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 180px;
+    display: block;
+  
+  }
+  .BLThree {
+    background-color: #F7F7F7;
+    height: 150px;
+    padding: 40px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-chart1 {
+    align-items: center;
+    justify-content: center;
+    background-color: #FF00C9;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .button-chart1:hover,
+  .button-chart1:focus {
+    background-color: #FF52DA;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  .button-chart2 {
+    align-items: center;
+    justify-content: center;
+    background-color: #006CFF;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .button-chart2:hover,
+  .button-chart2:focus {
+    background-color: #3D8FFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  .button-chart3 {
+    align-items: center;
+    justify-content: center;
+    background-color: #FF002E;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .button-chart3:hover,
+  .button-chart3:focus {
+    background-color: #FF4667;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  .button-chart4 {
+    align-items: center;
+    justify-content: center;
+    background-color: #14DB00;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .button-chart4:hover,
+  .button-chart4:focus {
+    background-color: #56FF45;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  .Chartgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 80px 50px;
+    /* background-color: #F7F7F7; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 40px;
+    background-color: #F7F7F7;
+    
+  }
+  .Chartgrid-item {
+    background-color: white;
+    border-radius: 15px;
+    height: 500px; 
+    padding: 15px;
+    /* height: 430px; */
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.24);
+  }
+  .boxChart-item {
+    margin-top: 70px;
+    background-color: red;
+    border-radius: 5px;
+  }
+  .fontinChart{
+    margin-left: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+  }
+  .fontheadChart{
+    margin-left: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }

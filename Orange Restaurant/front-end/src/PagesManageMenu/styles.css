@@ -1,0 +1,117 @@
+.mainstatus {
+
+    background-image: url('https://sv1.picz.in.th/images/2022/09/13/avCh7f.png');
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 90px;
+
+}
+
+.maineditstatus {
+
+    background-color: rgb(248, 248, 248);
+    padding: 50px;
+    display: flex;
+
+}
+
+.maineditstatus2 {
+
+    background-color: white;
+    height: 800px;
+    width: 1500px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+.headeditstatus{
+    font-family: 'Prompt', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.fonteditstatus{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+.infromeditstatus{
+    padding: 40px;
+}
+
+.mainstatus2 {
+
+    padding: 50px;
+
+
+}
+
+.mainstatus21 {
+
+    padding: 30px;
+}
+
+.boxfontstatus1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    height: 200px;
+    align-items: center;
+}
+
+.fontstatus1 {
+    font-size: 60px;
+    color: #000;
+    margin-top: 10%;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    font-family: 'Prompt', sans-serif;
+}
+
+.customers {
+    font-family: 'Prompt', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers td,
+th {
+    border: 1px solid transparent;
+    padding: 8px;
+    height: 50px;
+}
+
+
+.customers tr:hover {
+    background-color: #FFEEE5;
+}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FF7000;
+    color: white;
+}
+
+.iconbutton {
+    border: 1px transparent;
+    background-color: transparent;
+}
+
+.bins {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    right: 12px;
+}
+input[type='radio']:after {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+}
+input[type='radio']:checked:after {
+
+    border: 2px solid red;
+}

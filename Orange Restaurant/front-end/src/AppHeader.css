@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+.testr{
+    float: right;
+}
+.app-header {
+   position: fixed;
+   top: 0;
+   width:  100%;
+   padding: 20px;
+   margin: 0;
+   padding: 0;
+
+   
+   background-color: #FF9C00;
+   font-family: 'Sarabun', sans-serif;
+   -webkit-box-shadow: 0px 4px 9px -4px #FF7000; 
+   box-shadow: 0px 4px 9px -4px #FF7000;
+  }
+  
+  .app-header-item {
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .app-header-item:hover {
+    color: #FF8B00;
+  }
+  .app-header-item-active {
+    color: #FF7000;
+  }
+  .app-header-logo {
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+  } 
+.badge {
+  background-color: #f04040;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  width: 3rem;
+  height: 1.8rem;
+}

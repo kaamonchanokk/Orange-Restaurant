@@ -1,0 +1,240 @@
+.mainstatus {
+
+    background-image: url('https://sv1.picz.in.th/images/2022/09/13/avCh7f.png');
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 90px;
+
+}
+
+.maineditstatus {
+
+    background-color: rgb(248, 248, 248);
+    padding: 50px;
+    display: flex;
+
+}
+
+.maineditstatus2 {
+
+    background-color: white;
+    height: 800px;
+    width: 1500px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+.maineditmenu {
+
+    background-color: rgb(248, 248, 248);
+    padding: 50px;
+    display: flex;
+
+}
+.headeditstatus {
+    font-family: 'Prompt', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.fonteditstatus {
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+
+.infromeditstatus {
+    padding: 40px;
+}
+
+.mainstatus2 {
+
+    padding: 50px;
+
+
+}
+
+.mainstatus21 {
+
+    padding: 30px;
+}
+
+.boxfontstatus1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    height: 200px;
+    align-items: center;
+}
+
+.fontstatus1 {
+    font-size: 60px;
+    color: #000;
+    margin-top: 10%;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    font-family: 'Prompt', sans-serif;
+}
+
+.customers {
+    font-family: 'Prompt', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers td,
+th {
+    border: 1px solid transparent;
+    padding: 8px;
+    height: 50px;
+}
+
+
+.customers tr:hover {
+    background-color: #FFEEE5;
+}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FF7000;
+    color: white;
+}
+
+.iconbutton {
+    border: 1px transparent;
+    background-color: transparent;
+}
+
+.bins {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    right: 12px;
+}
+
+input[type='radio']:after {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+}
+
+input[type='radio']:checked:after {
+
+    border: 2px solid red;
+}
+
+.imagemenum {
+    border-radius: 15px;
+    display: block;
+    object-fit: cover;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+}
+
+.boxaddmenu {
+    padding: 5px;
+    margin-left: 86%;
+}
+
+.button-addmenu {
+    align-items: center;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button-addmenu:hover,
+.button-addmenu:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-addmenu:hover {
+    transform: translateY(-1px);
+}
+
+.button-addmenu:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.infrommenu {
+    padding: 40px 40px;
+    padding-bottom: 30px;
+
+}
+.infrommenuedit {
+    padding: 40px 40px;
+    padding-bottom: 30px;
+
+}
+.infrommenu2 {
+    height: 300px;
+    margin-left: 38%;
+    margin-top: 8%;
+}
+.mainmenu2 {
+
+    background-color: white;
+    height: 600px;
+    width: 1500px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+.mainmenu3 {
+
+    background-color: white;
+    height: 900px;
+    width: 1500px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+.button-newmenu {
+    align-items: center;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+  }
+  
+  .button-newmenu:hover,
+  .button-newmenu:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-newmenu:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-newmenu:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
